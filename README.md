@@ -50,7 +50,7 @@ system-monitor-project #File Name
 ```bash
 git clone https://github.com/yourusername/system-monitor-project.git
 cd system-monitor-project
-**
+
 2. **Create a virtual environment** (recommended)**
 python -m venv venv
 source venv/bin/activate   # Linux / macOS
