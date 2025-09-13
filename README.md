@@ -41,7 +41,7 @@ system-monitor-project #File Name
 
 |- README.md # Project documentation
 
----
+---        
 
 ## **Setup Instructions**
 
@@ -79,28 +79,22 @@ CREATE TABLE metrics (
     memory_usage FLOAT,
     disk_usage FLOAT
 );
+
 **How to Run**
 
 **1. Run metrics logging script**
 python log_system_metrics.py
-
-
 Logs metrics to MySQL
-
 Sends email alerts if thresholds are exceeded
 
 **2. Run the Streamlit dashboard**
-
 streamlit run dashboard.py
-
-
 Open the browser to view live metrics
-
 Stop demo mode using the Stop Demo button
 
 **Notes for Presentation**
 Use demo mode to simulate metrics for live demo
-
 Thresholds are configurable in the .env file
-
 No sensitive information (passwords) should be committed to GitHub
+
+                            
