@@ -1,11 +1,9 @@
-# Ignore Python cache
-__pycache__/
+
 *.pyc
-
-# Ignore environment files
-.env
+__pycache__/
 *.env
+*.db
+*.sqlite
+*.log
 
-# Ignore virtual environment
-venv/
-.env/
+
